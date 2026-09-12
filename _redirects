@@ -1,1 +1,4 @@
-/resume  /ShreyhPatel_Resume.pdf  200
+https://shreyhpatel.netlify.app/*  https://shreyhpatel.me/:splat  301!
+http://shreyhpatel.netlify.app/*   https://shreyhpatel.me/:splat  301!
+/resume                            /ShreyhPatel_Resume.pdf        200
+/index.html                        /                              301!

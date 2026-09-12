@@ -1,6 +1,19 @@
 [build]
   publish = "."
 
+# Permanent 301 redirect all Netlify traffic to shreyhpatel.me
+[[redirects]]
+  from = "https://shreyhpatel.netlify.app/*"
+  to = "https://shreyhpatel.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://shreyhpatel.netlify.app/*"
+  to = "https://shreyhpatel.me/:splat"
+  status = 301
+  force = true
+
 # Security & performance headers
 [[headers]]
   for = "/*"
